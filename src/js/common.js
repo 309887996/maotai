@@ -36,4 +36,18 @@ function switchTo(){
         }
     }
 }
-switchTo()
+switchTo();
+// 获取当前时间
+var toDay = document.querySelector('.roof .toDay');
+
+function getTime(){
+    var date = new Date()
+    var years = date.getFullYear();
+    var mouths = date.getMonth() + 1;
+    var day = date.getDate();
+    var weeks = date.getDay();
+    var arr = ['星期一','星期二','星期三','星期四','星期五','星期六','星期日'];
+    toDay.innerHTML = years + '年' + mouths + '月' + day + '日&nbsp;&nbsp;' + arr[weeks - 1];
+}
+getTime();
+
