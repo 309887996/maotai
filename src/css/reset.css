@@ -1,0 +1,35 @@
+html,body,p,ul,ol,li,figure,figcaption,img,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  
+}
+input{
+  outline: none;
+  border: none;
+}
+li{
+   list-style: none;
+}
+.continer{
+   max-width: 1200px;
+   width: auto;
+   /*background: #fff;*/
+   margin: 0 auto;
+}
+
+
+.active{
+   background: #b80219 !important;
+}
+#fixed{
+	bottom: 100px;
+	right: 40px;
+	position: fixed;
+}
+/*.show{
+   display: block;
+}*/
