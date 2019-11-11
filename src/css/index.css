@@ -12,13 +12,10 @@
     /* position: relative; */
 }
 .banner ul li{
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    /* float: left; */
-    /* display: none; */
+    float: left;
+    display: none;
 }
 .banner ul li a{
     display: block;
@@ -157,7 +154,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
 }
-.wrap_news .news .news_left .activeLI{
+.wrap_news .news .news_left .activeL{
     display: block;
     background-color: brown;
 }
