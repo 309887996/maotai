@@ -1,0 +1,48 @@
+
+.View{
+	/*width: 100%;*/
+	/*width: 600px;*/
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+/*轮播主题*/
+.View .Wrap{
+	 position: relative;
+	 display: flex;
+}
+.View .Wrap li{
+	flex: 1;
+	/* font-size: 100px; */
+	text-align: center;
+	/*line-height: ;*/
+}
+/*轮播箭头*/
+.View .ArrowWrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	top: 165px;
+	background: rgba(0,0,0,0);
+}
+.View .ArrowWrap .arrow_right{
+	margin-left: 50px;
+	cursor: pointer;
+}
+.View .ArrowWrap .arrow_left{
+	margin-right: 50px;
+	cursor: pointer;
+}
+/*轮播点*/
+.View .PointersWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+}
+
+.poinerActiveBgColor{
+	background-color: rgba(0, 0, 0, 0.2);
+}

@@ -68,13 +68,16 @@
     margin-left: 105px;
     margin-right: 10px;
 }
-.Tobody .Tobody_bottom .activeA{
+.Tobody .Tobody_bottom ul li a:hover{
+    color: #a00;
+}
+.Tobody .Tobody_bottom .activea{
     position: relative;
     color: #710;
     font-weight: bold;
     border-bottom: 2px solid #710;
 }
-.Tobody .Tobody_bottom .activeA i{
+.Tobody .Tobody_bottom .activea i{
     position: absolute;
     top: 14px;
     right: 20px;
@@ -106,12 +109,17 @@
     background-color: #710;
     color: #fff;
 }
+.Tobody .Tobody_bottomToLeft .foreign{
+    display: block;
+
+}
 .Tobody .Tobody_bottomToLeft .honer{
     padding-left: 15px;
     margin-bottom: 30px;
 }
 .Tobody .Tobody_bottomToLeft .honer .honer_left{
     float: left;
+    font-weight: bold;
 }
 .Tobody .Tobody_bottomToLeft .honer .honer_left .setting1{
     display: block;
@@ -154,6 +162,61 @@
     color: #c0a062;
 }
 
+
+
+.Tobody .Tobody_bottomToLeft .inland{
+    display: none;
+
+    width: 870px;
+}
+.Tobody .Tobody_bottomToLeft .glory{
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_left{
+    float: left;
+    font-weight: bold;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_left .setting1{
+    display: block;
+    float: left;
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+    color: #fff;
+    background-color: #c0a062;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_left .setting2{
+    display: block;
+    float: left;
+    width: 76px;
+    height: 91px;
+    color: #fff;
+    padding-top:25px;
+    background-color: #c0a062;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_left i{
+    color: #ddd;
+    float: left;
+    margin-top: 15px;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_right{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_right p{
+    line-height: 38px;
+}
+.Tobody .Tobody_bottomToLeft .glory .glory_right p span{
+    color: #c0a062;
+}
 
 
 

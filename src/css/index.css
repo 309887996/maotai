@@ -5,6 +5,7 @@
     height: 400px;
     margin: 0 auto;
     position: relative;
+    /* overflow: hidden; */
 }
 .banner ul{
     min-height: 268px;
@@ -15,7 +16,7 @@
     width: 100%;
     height: 100%;
     float: left;
-    display: none;
+    /* display: none; */
 }
 .banner ul li a{
     display: block;
@@ -25,16 +26,13 @@
     width: 100%;
     height: 400px;
 }
-.banner .activeLI{
-    display: block;
+.banner ol li:hover{
     background-color: brown;
 }
 .banner ol{
     position: absolute;
     bottom: 60px;
-    left: 46%;
-
-    margin: auto;
+    margin:0 auto;
     overflow: hidden;
 }
 .banner ol li{
@@ -65,7 +63,7 @@
     cursor: pointer;
     opacity: 1;
 }
-.banner div{
+.banner>div{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -78,6 +76,9 @@
     text-align: center;
     color: #fff;
     background-color: black;
+}
+.fontmove{
+    margin-top: 122px;
 }
 .wrap_news{
     max-width: 1200px;
@@ -113,12 +114,14 @@
 .wrap_news .news .news_left ul{
     width: 100%;
     height: 100%;
+
 }
 .wrap_news .news .news_left ul li{
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
-    display: none;
+    display: none; */
+    float: left;
 }
 .wrap_news .news .news_left ul li a{
     display: block;
@@ -134,6 +137,8 @@
     position: absolute;
     bottom: 10px;
     right: 40px;
+    overflow: hidden;
+    z-index: 100;
 }
 .wrap_news .news .news_left ol li{
     width: 10px;
@@ -473,6 +478,10 @@
     display: inline-block;
     font-size: 20px;
 }
+.wrap_relation .relation div p a{
+    display: block;
+    width: 270px;
+}
 .wrap_relation .relation div span:nth-of-type(2){
     float: left;
     display: block;
@@ -491,7 +500,10 @@
     margin-top: 70px;
     margin-left: 130px;
 }
-
+.wrap_relation .relation div>a:hover{
+    color: #710;
+    border-color: #710;
+}
 
 
 

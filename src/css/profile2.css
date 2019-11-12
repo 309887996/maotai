@@ -68,13 +68,16 @@
     margin-left: 105px;
     margin-right: 10px;
 }
-.Tobody .Tobody_bottom .activeA{
+.Tobody .Tobody_bottom ul li a:hover{
+    color: #a00;
+}
+.Tobody .Tobody_bottom .activea{
     position: relative;
     color: #710;
     font-weight: bold;
     border-bottom: 2px solid #710;
 }
-.Tobody .Tobody_bottom .activeA i{
+.Tobody .Tobody_bottom .activea i{
     position: absolute;
     top: 14px;
     right: 20px;
