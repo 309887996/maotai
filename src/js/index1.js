@@ -28,7 +28,9 @@ Carousel.prototype={
 	 	this.slideWrap.style.width=this.slideView.offsetWidth*this.slideWrap.children.length+"px";
 	 	this.slideWrap.style.height=this.slideView.offsetHeight+"px";
  		this.slideWrap.style.left=-this.courseIndex*this.slideView.offsetWidth+"px";
- 		this.slidePointersWrap.children[this.courseIndex-1].classList.add("poinerActiveBgColor");
+		 if(this.slidePointersWrap){
+			this.slidePointersWrap.children[this.courseIndex-1].classList.add("poinerActiveBgColor");
+		 }
  		this.slideWrap.addEventListener("transitionend",function(){
  			  //不耽搁正常过度，过度结束后的瞬间切换	//监听过渡：这里的索引是过渡后的索引
  				if(this.courseIndex>=this.slideWrap.children.length-1){
@@ -79,21 +81,24 @@ Carousel.prototype={
 		 	  this.slideWrap.appendChild(firstChild);
 	 },
 	 clickArrow:function(){
-	 	var that=this;
-	 	this.slideArrowWrap.onclick=function(ev){
-	 		var ev=ev||event;
-	 		var target=ev.target||event.srcElement;
-	 		if(target.className=="arrow_left"){
-	 			//点击左边的箭头，会导致索引越来越大
-	 			that.courseIndex++;
-	 		}
-	 		if(target.className=="arrow_right"){
-	 			//点击右边的箭头，会导致索引越来越小
-	 			that.courseIndex--;
-	 		}
-     		that.slideWrap.style.transition="left linear 1s";
-	     	that.slideWrap.style.left=-that.courseIndex*that.slideView.offsetWidth+"px";
-	 	}
+		 var that=this;
+		 if(this.slideArrowWrap){
+			this.slideArrowWrap.onclick=function(ev){
+				var ev=ev||event;
+				var target=ev.target||event.srcElement;
+				if(target.className=="arrow_left"){
+					//点击左边的箭头，会导致索引越来越大
+					that.courseIndex++;
+				}
+				if(target.className=="arrow_right"){
+					//点击右边的箭头，会导致索引越来越小
+					that.courseIndex--;
+				}
+				that.slideWrap.style.transition="left linear 1s";
+				that.slideWrap.style.left=-that.courseIndex*that.slideView.offsetWidth+"px";
+			}
+		 }
+	 	
 	 },
 	 clickPointers:function(){
 	 	var that=this;

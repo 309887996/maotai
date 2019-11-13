@@ -34,6 +34,7 @@
     bottom: 60px;
     margin:0 auto;
     overflow: hidden;
+    z-index: 100;
 }
 .banner ol li{
     float: left;
@@ -154,6 +155,7 @@
     height: 30px;
     width: 440px;
     line-height: 30px;
+    text-align: left;
     font-size: 16px;
     padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.2);
