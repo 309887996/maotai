@@ -1,0 +1,526 @@
+@charset "utf-8";
+/* banner图 */
+.banner{
+    width: 1536px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    /* overflow: hidden; */
+}
+.banner ul{
+    min-height: 268px;
+    overflow: hidden;
+    /* position: relative; */
+}
+.banner ul li{
+    width: 100%;
+    height: 100%;
+    float: left;
+    /* display: none; */
+}
+.banner ul li a{
+    display: block;
+}
+.banner ul li a img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.banner ol li:hover{
+    background-color: brown;
+}
+.banner ol{
+    position: absolute;
+    bottom: 60px;
+    margin:0 auto;
+    overflow: hidden;
+    z-index: 100;
+}
+.banner ol li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+.banner>img:nth-of-type(1){
+    position: absolute;
+    /* background-color: aqua; */
+    z-index: 99;
+    left: 20px;
+    top: 45%;
+    opacity: 0.5;
+}
+.banner>img:nth-of-type(2){
+    position: absolute;
+    /* background-color: aqua; */
+    z-index: 99;
+    right: 20px;
+    top: 45%;
+    opacity: 0.5;
+}
+.banner>img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.banner>div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    z-index: 99;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+.fontmove{
+    margin-top: 122px;
+}
+.wrap_news{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+.wrap_news h2{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+}
+.wrap_news h2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/D_burl.png) no-repeat center center;
+    margin: 60px 0 40px 0;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    color: #000;
+}
+.wrap_news .news{
+    width: 100%;
+    margin-top: 40px;
+}
+.wrap_news .news .news_left{
+    width: 450px;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+.wrap_news .news .news_left ul{
+    width: 100%;
+    height: 100%;
+
+}
+.wrap_news .news .news_left ul li{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    display: none; */
+    float: left;
+}
+.wrap_news .news .news_left ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.wrap_news .news .news_left ul li a img{
+    display: block;
+    width: 450px;
+    height: 250px;
+}
+.wrap_news .news .news_left ol{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    overflow: hidden;
+    z-index: 100;
+}
+.wrap_news .news .news_left ol li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    float: left;
+    margin-left: 10px;
+}
+.wrap_news .news .news_left p{
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    width: 440px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.wrap_news .news .news_left .activeL{
+    display: block;
+    background-color: brown;
+}
+.wrap_news .news .news_right{
+    width: 750px;
+    height: 250px;
+    float: left;
+}
+.wrap_news .news .news_right ul{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.wrap_news .news .news_right ul li{
+    margin-left: 20px;
+    list-style: outside;
+}
+.wrap_news .news .news_right ul li a{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+}
+.wrap_news .news .news_right ul li a span{
+    float: right;
+    margin-right: 10px;
+}
+.wrap_news .news .news_right ul li a:hover{
+    color: #710;
+}
+.wrap_news .location{
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.wrap_news .location a{
+    display: block;
+    width: 100%;
+}
+.wrap_news .location a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.wrap_product{
+    background-color: #eee;
+}
+.wrap_product .product{
+    background-color: #eee;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.wrap_product .product h2{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+}
+.wrap_product .product h2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/D_burl.png) no-repeat center center;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    color: #000;
+}
+.product>p{
+    display: block;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.product>p span{
+    display: inline-block;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #000;
+    position: relative;
+}
+.product>p span:nth-of-type(1){
+    margin-right: 15px;
+}
+.product>p span:nth-of-type(2){
+    margin-left: 15px;
+}
+.product>p span:hover{
+    color: #710;
+}
+.product>p span i{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    border: 8px solid #710;
+    border-bottom-color:transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    display: none;
+}
+.product>p span:hover>i{
+    display: block;
+}
+.product .activeSpan{
+    font-weight: bold;
+    color: #710;
+}
+.product .activeI{
+    display: block;
+}
+.product figure{
+    width: 270px;
+    height: 372px;
+    float: left;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    margin: 0 15px;
+}
+.product figure img{
+    width: 270px;
+    height: 320px;
+    transition: all .6s ease;
+}
+.product figure figcaption{
+    width: 270px;
+    height: 112px;
+    border-top: 2px solid #710;
+    background-color: #e3e3e3;
+    transition: all .3s ease;
+}
+.product figure figcaption p{
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+.product figure figcaption span{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+}
+.product figure figcaption:nth-of-type(2){
+    position: absolute;
+    bottom: -134px;
+    left: 0;
+}
+.product figure figcaption i{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #710;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    top: -21px;
+    left: 115px;
+}
+.product figure figcaption i a{
+    color: #fff;
+    font-size: 12px;
+}
+.product figure:hover img{
+    transform:translatey(-60px) scale(0.9,0.9);
+}
+.product figure:hover figcaption:nth-of-type(2){
+    transform:translatey(-134px);
+}
+.service{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.service .activeI{
+    display: block;
+}
+.service h2{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.service h2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/D_burl.png) no-repeat center center;
+    margin: 60px 0 40px 0;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    color: #000;
+}
+.service figure{
+    width: 238px;
+    height: 178px;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    display: block;
+    position: relative;
+    float: left;
+}
+.service figure:nth-of-type(1){
+    box-shadow:-5px 0 5px #d3d3d3,0 -5px 5px #d3d3d3;
+}
+.service figure:nth-of-type(2){
+    box-shadow:0 -5px 5px #d3d3d3;
+}
+.service figure:nth-of-type(3){
+    box-shadow:0 -5px 5px #d3d3d3;
+}
+.service figure:nth-of-type(4){
+    box-shadow:0 -5px 5px #d3d3d3;
+}
+.service figure:nth-of-type(5){
+    box-shadow:0 -5px 5px #d3d3d3,0 -5px 5px #d3d3d3;
+    border-right: none;
+}
+.service figure:nth-of-type(6){
+    box-shadow:-5px 0 5px #d3d3d3,0 5px 5px #d3d3d3;
+    border-bottom: none;
+}
+.service figure:nth-of-type(7){
+    box-shadow:0 5px 5px #d3d3d3;
+    border-bottom: none;
+}
+.service figure:nth-of-type(8){
+    box-shadow:0 5px 5px #d3d3d3;
+    border-bottom: none;
+}
+.service figure:nth-of-type(9){
+    box-shadow:0 5px 5px #d3d3d3;
+    border-bottom: none;
+}
+.service figure:nth-of-type(10){
+    box-shadow:0 5px 5px #d3d3d3,0 5px 5px #d3d3d3;
+    border: none;
+}
+.service figure img{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.service figure img:nth-of-type(1){
+    display: block;
+}
+.service figure img:nth-of-type(2){
+    display: none;
+}
+.service figure p{
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+.service figure a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.service figure:hover img:nth-of-type(1){
+    display: none;
+}
+.service figure:hover img:nth-of-type(2){
+    display: block;
+}
+.service figure:hover p{
+    color: #710;
+}
+.wrap_relation{
+    background-color: #eee;
+}
+.wrap_relation .relation{
+    background-color: #eee;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 40px;
+}
+.wrap_relation .relation h2{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    padding: 60px 0 40px 0;
+}
+.wrap_relation .relation h2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/D_burl.png) no-repeat center center;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    color: #000;
+}
+.wrap_relation .relation div{
+    width: 380px;
+    height: 164px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px 0;
+    margin:0 10px;
+    float: left;
+    box-shadow: 2px 2px 20px #e3e3e3
+}
+.wrap_relation .relation div span:nth-of-type(1){
+    float: left;
+    display: block;
+    margin-left: 20px;
+}
+.wrap_relation .relation div p{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+.wrap_relation .relation div p a{
+    display: block;
+    width: 270px;
+}
+.wrap_relation .relation div span:nth-of-type(2){
+    float: left;
+    display: block;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.wrap_relation .relation div>a{
+    display: block;
+    width: 116px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #c0a062;
+    border-radius: 16px;
+    border: 1px solid #c0a062;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.wrap_relation .relation div>a:hover{
+    color: #710;
+    border-color: #710;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+
 html,body,p,ul,ol,li,figure,figcaption,img,h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
@@ -30,6 +31,48 @@ li{
 	right: 40px;
 	position: fixed;
 }
-/*.show{
-   display: block;
-}*/
+
+
+
+/* CSS Document */
+/* css reset 样式重置*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure{
+	margin:0;	/* 外边距清零 */
+	padding:0;	/* 内边距清零 */
+}
+body,html{
+	height:100%;
+	font:16px "微软雅黑",Arial;	/* 设置全局基础字号 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;			/* 清除文字加粗 */
+	font-size:100%;
+}
+i,em{
+	font-style:normal;			/* 清除倾斜 */
+}
+a{
+	text-decoration:none;
+	color:#232323;		/* 清除文字样式 */
+}
+li{
+	list-style:none;			/* 清除列表项目符号 */
+}
+img{
+	border:0;
+	vertical-align:middle;
+	}
+input{
+	outline:none;
+	}
+.clearfix{
+	*zoom:1;
+	}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+	}
+

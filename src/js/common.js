@@ -37,6 +37,25 @@ function switchTo(){
     }
 }
 switchTo();
+
+// list列表切换
+var D_As = document.querySelectorAll('.Tobody_bottom ul li a');
+function switchToA(){
+    for (var i = 0; i < D_As.length; i++) {
+        D_As[i].index = i;
+        D_As[i].onclick = function () {
+            
+            // 清除所有的激活激活状态
+            for (var i = 0; i < D_As.length; i++) {
+                D_As[i].classList.remove('activea');
+            }
+            // 添加激活状态
+            this.classList.add('activea');
+        }
+    }
+}
+switchToA();
+
 // 获取当前时间
 var toDay = document.querySelector('.roof .toDay');
 
