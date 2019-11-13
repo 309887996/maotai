@@ -1,0 +1,231 @@
+/* 清除基本样式 */
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+p,
+td,
+dl,
+dd,
+form,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font: 12px "微软雅黑", Arial;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+strong {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+/* 下划线 */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+input {
+    outline: none;
+}
+
+/* banner图 */
+
+#L-banner {
+    width: 100%;
+}
+
+#L-banner img {
+    width: 100%;
+}
+
+/* 主体 */
+#L-main {
+    height: 785px;
+    background: url(../img/beijing.png) center no-repeat;
+    background-size: 100%;
+}
+
+.L-main-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: 785px;
+    box-sizing: border-box;
+}
+
+.L-main-left {
+    float: left;
+    width: 24.16%;
+
+}
+
+.L-main-left h3 {
+    background: url(../img/L-rail.png) center no-repeat;
+    background-size: 100%;
+    height: 45px;
+    font-size: 24px;
+    font-size: 24px;
+    color: #343434;
+    text-align: center;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.L-main-left ul {
+    margin-left: 12.06%;
+    box-shadow: 0px 10px 55px 0px #e3e3e3;
+    padding-top: 10px;
+}
+
+.L-main-left ul li {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.L-main-left ul li>a {
+    font-size: 20px;
+    color: #555;
+    display: block;
+    width: 74.5%;
+    margin-left: 25.5%;
+    line-height: 45px;
+    text-indent: 10px;
+    font-weight: 100;
+}
+
+.L-main-left ul li:nth-child(2) a {
+    border-bottom: 2px solid #8e060b;
+    color: #8e060b;
+    font-weight: bold;
+    background: url(../img/L-ringt.png) no-repeat;
+    background-position: 95%;
+}
+
+.L-main-left ul li>a:hover {
+    color: #d15619;
+}
+
+.L-main-left ul li:nth-child(2)>a:hover {
+    color: red;
+}
+
+.L-main-right {
+    float: left;
+    width: 75.83%;
+}
+
+.L-right-T {
+    margin-left: 40px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.L-right-T span a {
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+}
+
+.L-right-B {
+    margin-left: 40px;
+    box-sizing: border-box;
+    height: 650px;
+}
+.L-right-B ul li{
+    width: 100%;
+    height: 55px;
+}
+.L-right-B ul li a {
+    line-height: 55px;
+    color: #333333;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.L-right-B ul li span{
+    line-height: 55px;
+    color: #999999;
+    font-size: 16px;
+    float: right;
+    margin-right: 20px;
+}
+.L-right-B ul li:hover a{
+    color: #710306;
+    font-weight: bold;
+}
+.L-right-B ul li:hover span{
+    color: #710306;
+}
+.company-bottom{
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+}
+.company-bottom a{
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 0 10px;
+    height: 28px;
+    margin: 0 20px;
+    line-height: 28px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    color: #333;
+}
+.company-bottom span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+}
+.company-bottom input{
+    color: #333;
+    font-size: 14px;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 4px;
+    width: 22px;
+}
