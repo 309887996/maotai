@@ -52,11 +52,11 @@
             wenBen5.style.color = 'red';
             wenBen5.innerHTML = '&nbsp;&nbsp请填写联系电话！';
         } else {
-            wenBen5.innerHTML = ''
+            wenBen5.innerHTML = '';
             if (reg.test(OTxT5.value) == true) {
-                wenBen5.innerHTML = ''
+                wenBen5.innerHTML = '';
             } else {
-                wenBen5.style.color = 'red'
+                wenBen5.style.color = 'red';
                 wenBen5.innerHTML = '&nbsp;&nbsp联系电话格式错误！';
             };
         };
@@ -97,31 +97,31 @@
     for (var i = 0; i < 10; i++) {
         numArr.push(i);
     };
-    var smallArr = []
+    var smallArr = [];
     for (var i = 97; i <= 122; i++) {
-        smallArr.push(String.fromCharCode(i))
+        smallArr.push(String.fromCharCode(i));
     };
     var bigArr = [];
     for (var i = 65; i <= 90; i++) {
-        bigArr.push(String.fromCharCode(i))
+        bigArr.push(String.fromCharCode(i));
     };
     var allArr = numArr.concat(smallArr, bigArr);
-    var code = ''
+    var code = '';
     for (var i = 0; i < 4; i++) {
         var index = parseInt(Math.random() * allArr.length)
-        var res = allArr.splice(index, 1)
-        code = code + res
+        var res = allArr.splice(index, 1);
+        code = code + res;
     }
-    OTxT10.value = code
+    OTxT10.value = code;
 
     OTxT10.onclick = function () {
-        var code1 = ''
+        var code1 = '';
         for (var i = 0; i < 4; i++) {
-            var index = allArr[parseInt(Math.random() * allArr.length)]
-            code1 = code1 + index
-        }
-        OTxT10.value = code1
-    }
+            var index = allArr[parseInt(Math.random() * allArr.length)];
+            code1 = code1 + index;
+        };
+        OTxT10.value = code1;
+    };
     Oreset.onclick = function () {
         OTxT1.value = '';
         OTxT2.value = '';
@@ -132,7 +132,7 @@
         OTxT7.value = '';
         OTxT8.value = '';
         OTxT9.value = '';
-    }
+    };
 
 
 })();

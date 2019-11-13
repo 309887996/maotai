@@ -1,6 +1,6 @@
 (function () {
     var Otext1 = document.querySelector('.big-txt1 .text1');
-    var Otexta = document.querySelector('.texta')
+    var Otexta = document.querySelector('.texta');
     var Otext2 = document.querySelector('.text2');
     var Otext3 = document.querySelector('.text3');
     var Otext4 = document.querySelector('.text4');
@@ -85,28 +85,28 @@
     };
     var smallArr = []
     for (var i = 97; i <= 122; i++) {
-        smallArr.push(String.fromCharCode(i))
+        smallArr.push(String.fromCharCode(i));
     };
     var bigArr = [];
     for (var i = 65; i <= 90; i++) {
-        bigArr.push(String.fromCharCode(i))
+        bigArr.push(String.fromCharCode(i));
     };
     var allArr = numArr.concat(smallArr, bigArr);
     var code = ''
     for (var i = 0; i < 4; i++) {
-        var index = parseInt(Math.random() * allArr.length)
-        var res = allArr.splice(index, 1)
-        code = code + res
+        var index = parseInt(Math.random() * allArr.length);
+        var res = allArr.splice(index, 1);
+        code = code + res;
     }
-    Otext6.value = code
+    Otext6.value = code;
 
     Otext6.onclick = function () {
-        var code1 = ''
+        var code1 = '';
         for (var i = 0; i < 4; i++) {
-            var index = allArr[parseInt(Math.random() * allArr.length)]
-            code1 = code1 + index
+            var index = allArr[parseInt(Math.random() * allArr.length)];
+            code1 = code1 + index;
         }
-        Otext6.value = code1
+        Otext6.value = code1;
     }
     Oreset.onclick = function () {
         Otext1.value ='';

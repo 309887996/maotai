@@ -2,18 +2,18 @@ function Jumppage() {
     if ($('.num1').text() == 1) {
         for (i = 4; i < $('.List li').length; i++) {
             $('.List li')[i].style.display = 'none';
-        }
+        };
     } else if ($('.num1').text() == 2) {
         for (i = 0; i < 4; i++) {
             $('.List li')[i].style.display = 'none';
-        }
-    }
-}
+        };
+    };
+};
 $('.shouye').on("click", function () {
     $('.num1').text('1');
     for (i = 0; i < 4; i++) {
         $('.List li')[i].style.display = 'block';
-    }
+    };
     Jumppage();
 });
 
@@ -21,7 +21,7 @@ $('.shangye').on("click", function () {
     $('.num1').text('1');
     for (i = 0; i < 4; i++) {
         $('.List li')[i].style.display = 'block';
-    }
+    };
     Jumppage();
 });
 
@@ -29,14 +29,14 @@ $('.xieye').on("click", function () {
     $('.num1').text('2');
     for (i = 4; i < $('.List li').length; i++) {
         $('.List li')[i].style.display = 'block';
-    }
+    };
     Jumppage();
 });
 $('.weiye').on("click", function () {
     $('.num1').text('2');
     for (i = 4; i < $('.List li').length; i++) {
         $('.List li')[i].style.display = 'block';
-    }
+    };
     Jumppage();
 });
 $('.go').on("click", function () {
@@ -44,7 +44,7 @@ $('.go').on("click", function () {
         $('.num1').text('1');
         for (i = 0; i < 4; i++) {
             $('.List li')[i].style.display = 'block';
-        }
+        };
         Jumppage();
     }
     else if ($('.tiaoye').val() == 2) {
@@ -54,8 +54,8 @@ $('.go').on("click", function () {
         }
         Jumppage();
     }else{
-        $('.tiaoye').val('1')
-    }
+        $('.tiaoye').val('1');
+    };
 
 });
 
@@ -66,7 +66,7 @@ $(function () {
         dataType: 'json',
         cache: false,
         success: function (json) {
-            var results = ''
+            var results = '';
             $.each(json, function (index, item) {
                 results += '<li><p>' + item.company + '</P><p>' + item.site +
                     '</P><P>' + item.num + '</p><span>' + item.name +
