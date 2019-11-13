@@ -257,6 +257,9 @@ img {
 /* menu 菜单 */
 .L_menu {
     height: 500px;
+    background: url('../img/L_RZPHASK67n.jpg') center no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 
 .L_menu_left {
