@@ -1,0 +1,163 @@
+
+/* 清除基本样式 */
+body,ul,ol,h1,h2,h3,p,td,dl,dd,form,input{
+	margin:0;
+	padding:0;
+}
+body,html{
+	font:12px "微软雅黑",Arial;
+	width: 100%;
+}
+h1,h2,h3,p,strong{
+	font-weight:normal;
+	font-size:100%;
+}
+ i em{
+	font-style:normal;
+}
+/* 下划线 */
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	vertical-align:top;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+input{
+	outline: none;
+}
+
+
+
+
+/* banner图 */
+
+#L-banner{
+    width: 100%;
+}
+ #L-banner img{
+    width: 100%;
+}
+
+/* 主体 */
+#L-main{
+    height: 695px;
+    background: url(../img/beijing.png) center no-repeat;
+    background-size: 100%;
+}
+.L-main-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: 695px;
+    box-sizing: border-box;
+}
+.L-main-left{
+    float: left;
+    width: 24.16%;
+
+}
+.L-main-left h3{
+   background:url(../img/L-rail.png) center no-repeat ;
+   background-size: 100% ;
+   height: 45px; 
+   font-size: 24px;
+   font-size: 24px;
+   color: #343434;
+   text-align: center;
+   font-weight: bold;
+   line-height: 45px;
+}
+.L-main-left ul{
+    margin-left:12.06% ;
+    box-shadow: 0px 10px 55px 0px #e3e3e3;
+    padding-top: 10px;
+}
+.L-main-left ul li{
+    padding-bottom: 10px;
+    padding-right:10px ;
+}
+
+.L-main-left ul li>a{
+    font-size: 20px;
+    color: #555;
+    display: block;
+    width: 74.5%;
+    margin-left: 25.5%;
+    line-height: 45px;
+    text-indent: 10px;
+    font-weight: 100;
+}
+.L-main-left ul li:nth-child(2) a{
+    border-bottom: 2px solid #8e060b;
+    color: #8e060b;
+    font-weight: bold;
+    background: url(../img/L-ringt.png) no-repeat;
+    background-position: 95%;
+}
+.L-main-left ul li>a:hover{
+    color: #d15619;
+}
+
+.L-main-left ul li:nth-child(2)>a:hover{
+    color: red;
+}
+.L-main-right{
+    float: left;
+    width: 75.83%;
+    height: 560px;
+}
+.L-right-T{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+.L-right-T span a{
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+}
+.L-right-B{
+    padding-left:40px ;
+    width: 100%;
+}
+.L-right-B p{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.L-right-B div{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.L-right-B div a img{
+    width: 100%;
+    max-width:800px;
+    
+}
+.L-right-B>a{
+    color: rgb(113, 3, 4);    
+    font-size: 16px;
+    margin-left: 50px;
+}

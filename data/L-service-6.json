@@ -1,0 +1,58 @@
+[
+    {
+        "company": "OUTTASTING -LDA",
+        "site": "地址：Rua 9,1，Bairro de Belem, 1400-255 Lisboa, Portugal",
+        "num": "客户编号：001",
+        "name": "姓名：Alexandrino Neves",
+        "sold": "|",
+        "cellphone": "电话号码：00351-933159870"
+    },
+    {
+        "company": "YANGTSE VERMIETUNGS GMBH",
+        "site": "地址：Farmstra？e 101 64546 Morfelden Walldorf, Germany",
+        "num": "客户编号：003",
+        "name": "姓名：Xiuchai Zhao",
+        "sold": "|",
+        "cellphone": "电话号码：0056-968688676"
+    },
+    {
+        "company": "IMPORTADORA Y DISTRIB UIDORA SEISLUCES SA",
+        "site": "地址：El Reirob 1201 4,Logisentro Miraflores Rence, Chile",
+        "num": "客户编号：001",
+        "name": "姓名：Federico Heiremans Velasco",
+        "sold": "|",
+        "cellphone": "电话号码：18089678011"
+    },
+    {
+        "company": "IMPORTADORA Y DISTRIB UIDORA SEISLUCES SA",
+        "site": "地址：El Reirob 1201 4,Logisentro Miraflores Rence, Chile",
+        "num": "客户编号：001",
+        "name": "姓名：Federico Heiremans Velasco",
+        "sold": "|",
+        "cellphone": "电话号码：0056-968688676"
+    },
+    {
+        "company": "MALTA ASPRI SPIRITS LTD",
+        "site": "地址：6,Acropolis, 12/f, Triq Sant'Antnin, Birkirkara, Malta",
+        "num": "客户编号：001",
+        "name": "姓名：Salvo Grima Group",
+        "sold": "|",
+        "cellphone": "电话号码：00356-98414234"
+    },
+    {
+        "company": "ELEPHANT CHINOIS",
+        "site": "地址：11 BP 756 Abidjan 11, Lot 456, Cote D’ivoire",
+        "num": "客户编号：001",
+        "name": "姓名：Assouan Jean Yves Roland",
+        "sold": "|",
+        "cellphone": "电话号码：0086-18932976706"
+    },
+    {
+        "company": "SINGAPORE CHINA BAIJIU PTE LTD",
+        "site": "地址：55, Niven Road, Singapore-21和1-22号",
+        "num": "客户编号：003",
+        "name": "姓名：Weilong Yun",
+        "sold": "|",
+        "cellphone": "电话号码：0065-83834445"
+    }
+]
