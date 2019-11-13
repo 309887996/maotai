@@ -19,6 +19,7 @@ function Carousel(options){
 	//轮播图索引
 	this.courseIndex=1;
 	this.timer=null;
+	this.duration=options.time;
 	
 }
 Carousel.prototype={
@@ -130,7 +131,7 @@ Carousel.prototype={
 		 				this.clickPointers()
 			 		}
 	 			   	
-	 		}.bind(this),3000);
+	 		}.bind(this),this.duration);
 	 	
 	 },
 	 utils:{
@@ -146,7 +147,8 @@ var carousel=new Carousel({
 	View:".View",
 	Wrap:".Wrap",
 	PointersWrap:".PointersWrap",
-	ArrowWrap:".ArrowWrap"
+	ArrowWrap:".ArrowWrap",
+	time:4000
 })
 carousel.init();
 
@@ -155,7 +157,8 @@ var carousel2=new Carousel({
 	View:".news_left",
 	Wrap:".www",
 	PointersWrap:".mmm",
-	ArrowWrap:".ArrowWrap"
+	ArrowWrap:".ArrowWrap",
+	time:4000
 })
 carousel2.init();
 
@@ -163,6 +166,7 @@ var carousel3=new Carousel({
 	View:".news_let>.text",
 	Wrap:".news_let>.View>.hhh",
 	PointersWrap:".a",
-	ArrowWrap:".cc"
+	ArrowWrap:".cc",
+	time:3000
 })
 carousel3.init();
