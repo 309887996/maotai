@@ -53,7 +53,7 @@ input{
 
 /* 主体 */
 #L-main{
-    height: 695px;
+    /* height: 695px; */
     background: url(../img/beijing.png) center no-repeat;
     background-size: 100%;
 }
@@ -61,7 +61,7 @@ input{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 40px;
-    height: 695px;
+    height: 1140px;
     box-sizing: border-box;
 }
 .L-main-left{
