@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.banner a{
+    display: block;
+}
+.banner a img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.Tobody{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.Tobody .Tobody_top{
+    width: 100%;
+    padding-top: 40px;
+}
+.Tobody .Tobody_top h2{
+    background: url(../img/D_profileurl.png) no-repeat center center;
+    width: 290px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+}
+.Tobody .Tobody_top p{
+    float: left;
+    line-height: 45px;
+    margin-left: 40px;
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.Tobody .Tobody_top p a{
+    margin-right: 4px;
+    color: #999;
+}
+.Tobody .Tobody_bottom{
+    width: 100%;
+}
+.Tobody .Tobody_bottom>ul{
+    float: left;
+    width: 290px;
+    height: 470px;
+    box-shadow: 2px 0 20px #e3e3e3;
+}
+.Tobody .Tobody_bottom>ul li:nth-of-type(1){
+    padding-top: 10px;
+}
+.Tobody .Tobody_bottom>ul li{
+    padding-bottom: 10px;
+}
+.Tobody .Tobody_bottom>ul li a{
+    display: block;
+    font-size: 20px;
+    line-height: 45px;
+    height: 47px;
+    margin-left: 105px;
+    margin-right: 10px;
+}
+.Tobody .Tobody_bottom ul li a:hover{
+    color: #a00;
+}
+.Tobody .Tobody_bottom .activea{
+    position: relative;
+    color: #710;
+    font-weight: bold;
+    border-bottom: 2px solid #710;
+}
+.Tobody .Tobody_bottom .activea i{
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    border: 9px solid #710;
+    border-bottom-color:transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+.Tobody .Tobody_bottomToLeft{
+    float: left;
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
+.Tobody .Tobody_bottomToLeft ul li{
+    padding: 30px 0;
+    width: 870px;
+    border-bottom: 1px solid #ddd;
+}
+.Tobody .Tobody_bottomToLeft ul li img{
+    display: block;
+    width: 173px;
+    height: 215px;
+    border: 1px solid #ddd;
+    float: left;
+}
+.Tobody .Tobody_bottomToLeft ul li span{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.Tobody .Tobody_bottomToLeft ul li i{
+    float: left;
+    display: block;
+    width: 50px;
+    line-height: 30px;
+    font-size: 16px;
+    margin-left: 40px;
+    padding-top: 50px;
+}
+.Tobody .Tobody_bottomToLeft ul li strong{
+    float: left;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

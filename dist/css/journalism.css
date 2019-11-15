@@ -1,0 +1,464 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body,
+html {
+    font-size: 12px;
+}
+
+img {
+    vertical-align: top;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+/* 顶部 */
+.L_header {
+    width: 100%;
+    background: olivedrab;
+    height: 40px;
+}
+
+/* 顶部导航 */
+.L_menu {
+    width: 100%;
+    height: 127px;
+    background: orangered;
+}
+
+/* banner图 */
+.L_banner ul li img {
+    width: 100%;
+}
+
+/*内容开始*/
+.L_navFix {
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.L_News {
+    width: 290px;
+    float: left;
+}
+
+.L_News h3 {
+    font-size: 24px;
+    color: #343434;
+    text-align: center;
+    background: url('../img/L_jour (13).png') center no-repeat;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.L_News div {
+    float: right;
+    width: 255px;
+}
+
+.L_News div ul {
+    box-shadow: 0px 10px 55px 0px #e3e3e3;
+}
+
+.L_News div ul li {
+    text-indent: 10px;
+    padding-bottom: 10px;
+}
+
+.L_News_li {
+    padding-top: 10px;
+}
+
+.L_News div ul li a {
+    font-size: 20px;
+    color: #555;
+    display: block;
+    width: 190px;
+    margin-left: 65px;
+    margin-right: 0;
+    line-height: 45px;
+}
+
+.L_News div ul li:hover a {
+    color: #CC3341;
+}
+
+.L_navFix_center {
+    float: left;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.L_navFix_center span a {
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+}
+
+.L_navFix_right {
+    width: 868px;
+    margin-bottom: 50px;
+    min-height: 560px;
+    float: right;
+}
+
+.L_navFix_right_top {
+    width: 100%;
+}
+
+.L_navFix_right_top>div {
+    padding: 16px 0;
+    box-shadow: 2px 0px 20px rgba(170, 170, 170, .15);
+    background: #fff;
+}
+
+.L_navFix_top {
+    background: url('../img/L_jour\ \(2\).jpg') no-repeat;
+    height: 142px;
+    line-height: 142px;
+}
+
+.L_navFix_top_left {
+    display: inline-block;
+}
+
+.L_navFix_top_left p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7d5341;
+    margin-left: 20px;
+}
+
+.L_navFix_top_right {
+    width: 80%;
+    margin-top: 26px;
+    float: right;
+}
+
+.L_navFix_top_right .L_navFix_top_news {
+    overflow: hidden;
+    position: relative;
+    height: 90px;
+}
+
+.L_navFix_top_right .news {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.L_navFix_top_right div ul {
+    height: 210px;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.L_navFix_top_right div ul li {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.L_navFix_top_right div ul li i {
+    background: #555;
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.L_navFix_top_right div ul li a {
+    font-size: 16px;
+    color: #555;
+    margin-left: 12px;
+}
+
+.L_navFix_top_right div ul li:hover a {
+    color: #CC3341;
+}
+
+.L_navFix_top_right div ul li span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.L_newsWrap_left{
+    width: 420px;
+    display: inline-block;
+}
+
+.L_slideshow {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.L_slideshow .L_slide {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.L_slide ul{
+    position: relative;
+    width: 420px;
+    height: 280px;
+}
+
+.L_slide ul li{
+    position: absolute;
+    width: 420px;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.L_slide .L_active{
+    display: block;
+}
+
+.L_slide_p1{
+    height: 100%;
+    background: #000;
+    margin: 0;
+}
+
+.L_slide_p1 a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.L_slide_p2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    margin: 0;
+}
+
+.L_slide_p2 a{
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+    text-indent: 1em;
+}
+
+.L_slide_1{
+    position: absolute;
+    bottom: 14px;
+    right: 15px;
+    z-index: 60;
+}
+
+.L_slide_1 ul li{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: .7em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    text-indent: 99em;
+    overflow: hidden;
+}
+
+.L_slide_1 .on{
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+
+.L_newsWrap_right{
+    width: 444px;
+    float: right;
+}
+
+.L_newsWrap_right_hov ul{
+    margin-top: 40px;
+    padding: 12px 0;
+    box-shadow: 2px 0px 20px rgba(170, 170, 170, .15);
+    line-height: 40px;
+    background: #fff;
+    height: 40px;
+}
+
+.L_newsWrap_right_hov ul li{
+    margin-left: 20px;
+    float: left;
+    margin-right: 40px;
+}
+
+.L_newsWrap_right_hov ul li a{
+    color: #a8a09d;
+    font-size: 20px;
+    display: block;
+    line-height: 40px;
+}
+
+.L_newsWrap_right_hov ul .L_on a{
+    color: #c0a062;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    line-height: 40px;
+}
+
+.L_newsWrap_right_size .L_newsWrap_size{
+    display: none;
+}
+
+.L_newsWrap_right_size .L_size{
+    display: block;
+}
+
+.L_newsWrap_size ul{
+    padding: 10px 20px 15px 20px;
+    box-shadow: 2px 0px 20px rgba(170, 170, 170, .15);
+    background: #fff;
+}
+
+.L_newsWrap_size ul li{    
+    line-height: 32px;
+    position: relative;
+}
+
+.L_newsWrap_size ul li:hover a{
+    color: #CC3341;
+}
+
+.L_newsWrap_size ul li:hover span{
+    color: #CC3341;
+}
+
+.L_newsWrap_size ul li i{
+    background: #333;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 0px;
+    border-radius: 50%;
+}
+
+.L_newsWrap_size ul li a{
+    font-size: 16px;
+    color: #333;
+    margin-left: 12px;
+}
+
+.L_newsWrap_size ul li span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.L_newsbottom_left{
+    width: 420px;
+    float: left;
+}
+
+.L_newsbot_div .L_news_div{
+    margin-top: 40px;
+    padding-bottom: 15px;
+    box-shadow: 2px 0px 20px rgba(170, 170, 170, .15);
+    background: #fff;
+}
+
+.L_news_div p{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+}
+
+.L_news_div p>span{
+    width: 160px;
+    height: 36px;
+    font-size: 22px;
+    font-weight: bold;
+    background: url('../img/L_jour (3).jpg') no-repeat;
+    float: left;
+}
+
+.L_news_div p span span{
+    margin-left: 20px;
+    color: #666;
+}
+
+.L_news_div p a{
+    font-size: 16px;
+    color: #dbc9ac;
+    margin-right: 16px;
+    float: right;
+}
+
+.L_news_div ul{
+    margin-top: 10px;
+}
+
+.L_news_div ul li{
+    line-height: 30px;
+    position: relative;
+}
+
+.L_news_div ul li:hover a{
+    color: #343434;
+}
+
+.L_news_div ul li i{
+    background: #333;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.L_news_div ul li a{
+    font-size: 16px;
+    color: #525252;
+    margin-left: 35px;
+}
+
+.L_news_div ul li span{
+    font-size: 15px;
+    color: #333;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}

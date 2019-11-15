@@ -1,0 +1,406 @@
+
+/* 清除基本样式 */
+body,ul,ol,h1,h2,h3,p,td,dl,dd,form,input{
+	margin:0;
+	padding:0;
+}
+body,html{
+	font:12px "微软雅黑",Arial;
+	width: 100%;
+}
+h1,h2,h3,p,strong{
+	font-weight:normal;
+	font-size:100%;
+}
+ i em{
+	font-style:normal;
+}
+/* 下划线 */
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	vertical-align:top;
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+/* input{
+	outline: none;
+} */
+
+
+
+
+/* banner图 */
+
+#L-banner{
+    width: 100%;
+}
+ #L-banner img{
+    width: 100%;
+}
+
+/* 主体 */
+#L-main{
+    height:960px;
+    background: url(../img/beijing.png) center no-repeat;
+    background-size: 100%;
+}
+.L-main-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: 960px;
+    box-sizing: border-box;
+}
+.L-main-left{
+    float: left;
+    width: 24.16%;
+
+}
+.L-main-left h3{
+   background:url(../img/L-rail.png) center no-repeat ;
+   background-size: 100% ;
+   height: 45px; 
+   font-size: 24px;
+   font-size: 24px;
+   color: #343434;
+   text-align: center;
+   font-weight: bold;
+   line-height: 45px;
+}
+.L-main-left ul{
+    margin-left:12.06% ;
+    box-shadow: 0px 10px 55px 0px #e3e3e3;
+    padding-top: 10px;
+}
+.L-main-left ul li{
+    padding-bottom: 10px;
+    padding-right:10px ;
+}
+
+.L-main-left ul li>a{
+    font-size: 20px;
+    color: #555;
+    display: block;
+    width: 74.5%;
+    margin-left: 25.5%;
+    line-height: 45px;
+    text-indent: 10px;
+    font-weight: 100;
+}
+.L-main-left ul li:nth-child(3) a{
+    border-bottom: 2px solid #8e060b;
+    color: #8e060b;
+    font-weight: bold;
+    background: url(../img/L-ringt.png) no-repeat;
+    background-position: 95%;
+}
+.L-main-left ul li>a:hover{
+    color: #d15619;
+}
+
+.L-main-left ul li:nth-child(3)>a:hover{
+    color: red;
+}
+.L-main-right{
+    float: left;
+    width: 75.83%;
+}
+.L-right-T{
+    margin-left: 40px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+.L-right-T span a{
+    font-size: 16px;
+    color: #999999;
+    line-height: 40px;
+}
+.L-right-B{
+    padding-left:40px ;
+    width: 100%;
+    height: 725px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.L-txt-top{
+    width: 100%;
+    margin-bottom: 50px;
+    border: 1px solid #b5b5b5;
+}
+.L-txt-top-1{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    padding: 14px 20px;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+.L-txt-top-1 .txt1{
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    border: 1px solid #c9c9c9;
+    width: 150px;
+    margin-right: 12px
+}
+.L-txt-top-1 .txt2{
+    height: 20px;
+    line-height: 20px;
+    padding: 5px;
+    border: 1px solid #c9c9c9;
+    width: 150px;
+    margin-right: 12px
+}
+.L-txt-top-1 label{
+    padding: 0 25px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: 1px solid #710304!important;
+    color: #64b24f;
+    cursor: pointer;
+}
+.L-txt-top-1 label:hover{
+    background: #710304;
+    color: #fff;
+}
+.L-txt-top-1 label button{
+    background-color: #fff;
+    color: #707070;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    height: 27px;
+}
+.L-txt-top-1 label:hover button{
+    background: #710304;
+    color: #fff;
+}
+.L-txt-top-2 .L-dispose{
+    min-height: 36px;
+    background: #f3f3f3;
+    border-top:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+}
+.L-txt-top-2 .dispose-1{
+    width: 25%;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+.L-txt-top-2 .dispose-2{
+    width: 40%;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+.L-txt-top-2 .dispose-3{
+    width: 12%;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+.L-txt-top-2 .dispose-4{
+    width: 11%;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+.L-txt-top-2 .dispose-5{
+    width: 12%;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+.L-skip{
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+}
+.L-skip a{
+    font-size: 14px;
+    color: #707070;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+    display: inline-block;
+}
+.L-skip span{
+    display: inline-block;
+    margin-right: 20px;
+    color: #707070;
+    font-size: 14px;
+}
+.L-skip span .pages{
+    width: 34px;
+    padding: 3px 2px;
+    height: 16px;
+    *height: 10px;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+.L-skip .page-btn{
+    height: 26px;
+    line-height: 22px;
+    background-color: #fff;
+    font-size: 14px;
+    margin: 0 20px 0 0px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: 1px solid #707070;
+    color: #707070;
+    outline: 0;
+    cursor: pointer;
+}
+.L-skip .page-btn:hover{
+    background: #64b24f;
+    color: #fff;
+}
+
+.L-txt-bottom{
+    width: 100%;
+    border: 1px solid #b5b5b5;
+}
+.L-txt-bottom .hint{
+    margin: 0 30px;
+    line-height: 44px;
+    border-bottom: 1px dashed #a0a0a0;
+}
+.L-txt-bottom .hint p{
+    color: #a0a0a0;
+    font-size: 12px;
+    margin: 0;
+}
+.L-txt-bottom em{
+    color: #f01f0b;
+    font-size: 16px;
+    font-weight: bold;
+}
+.L-big-txt{
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.L-big-txt .big-txt1{
+    height: 52px;
+    line-height: 52px;
+}
+.L-big-txt span{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin-right: 40px;
+    font-size: 16px;
+}
+.L-big-txt .big-txt1 input{
+    line-height: 24px;
+    height: 24px;
+    padding: 3px 6px;
+    border: 1px solid #c9c9c9;
+    width: 60%;
+    color: #666;
+}
+.L-big-txt .big-txt2 textarea{
+    width: 60%;
+}
+.L-big-txt .big-txt3 .text5{
+    line-height: 24px;
+    height: 24px;
+    padding: 3px 6px;
+    border: 1px solid #c9c9c9;
+    width: 15%;
+    color: #666;
+}
+.L-big-txt .big-txt3 .text6{
+    line-height: 24px;
+    height: 24px;
+    padding: 3px 6px;
+    border: 1px solid #c9c9c9;
+    width: 5%;
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    outline: none;
+}
+.L-big-sub {
+    border-top: 2px solid #ddd;
+    background-color: #fff;
+    padding: 14px 170px;
+}
+.L-big-sub .label1{
+    border: 1px solid #64b24f;
+    color: #64b24f;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.L-big-sub .refer:hover{
+    background: #64b24f;
+    color: #fff;
+}
+.L-big-sub .label2{
+    border: 1px solid #cf2424;
+    color: #cf2424;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.L-big-sub .reset:hover{
+    background: #cf2424;
+    color: #fff;
+}
+.L-big-sub label button{
+    height: 28px;
+    line-height: 28px;
+    background-color: #fff;
+    color: #7d7d7d;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    padding: 0 21px;
+}   

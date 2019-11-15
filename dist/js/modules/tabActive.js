@@ -17,7 +17,7 @@ TabActive.prototype={
 		var that=this;
 		this.newsWrap.innerHTML=""
 		console.log(that.index)
-		$.getJSON("/data/w_newsList.json",function(data){
+		$.getJSON("/maotai/data/w_newsList.json",function(data){
 			var arr=data.filter(function(item,idx){
 				 return idx>=that.index*7 && idx<that.index*7+7;
 			})
