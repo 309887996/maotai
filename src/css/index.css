@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* banner图 */
 .banner{
-    width: 1536px;
+    max-width: 1536px;
     height: 400px;
     margin: 0 auto;
     position: relative;
